@@ -1,0 +1,19 @@
+1. db.users.find({city: "New York"});
+
+2. db.products.find({user_id: "userid"});
+
+3. db.products.find({category: "Electronics"});
+
+4. db.reviews.find({product_id: 101})
+
+5. db.users.find({age: {$gt: 30}})
+
+6. db.products.find({}).sort({price: 1}).limit(10)
+
+7. db.users.find({},{name: 1, age: 1})
+
+8. db.users.find({quantity: {$gt: 2}})
+
+9. db.reviews.find({rating: {$gte: 4}})
+
+10. db.products.find({}).limit(5)
